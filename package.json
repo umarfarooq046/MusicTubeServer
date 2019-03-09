@@ -1,0 +1,32 @@
+{
+    "name": "MusicTube",
+    "description": "MusicTube web server",
+    "version": "0.0.1",
+    "private": false,
+    "author": "Umar Farooq",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ummifari/MusicTubeServer.git"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    },
+    "scripts": {
+        "start": "node node_modules/grunt-cli/bin/grunt",
+        "test": "node node_modules/grunt-cli/bin/grunt test"
+    },
+    "dependencies": {
+        "express": "latest",
+        "express-session": "latest",
+        "express-validator": "^2.10.0",
+        "http": "latest",
+        "mongodb": "latest",
+        "mongoose": "latest",
+        "orm": "^2.1.24",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "aws-sdk": "*"
+    }
+}
